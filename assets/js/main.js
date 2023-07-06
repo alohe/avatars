@@ -176,8 +176,9 @@ function init() {
   let imgsContainer = document.querySelector(".images");
   imgsContainer.innerHTML = images
     .map((image, i) => {
-      return `<div class='images__image' style="background-color: ${colors[i]}">
-          <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}"  class="images__image__img" style="background-color: ${image.color}; border-radius: 50%" alt='memojis' />
+      let color = Math.floor(Math.random() * colors.length);
+      return `<div class='images__image' style="background-color: ${colors[color]}">
+          <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}"  class="images__image__img" style="background-color: ${colors[color]}; border-radius: 50%" alt='memojis' />
           <div class='image__control__buttons'>
             <div class='hor'>
               <button class='image__control__button' onclick="copy('https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}', this)">
