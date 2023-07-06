@@ -1,44 +1,143 @@
+ | Image                                                                                    | Link                                                                       |
+ | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_1.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_1.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_2.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_2.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_3.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_3.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_4.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_4.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_5.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_5.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_6.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_6.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_7.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_7.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_8.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_8.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_9.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_9.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_10.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_10.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_11.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_11.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_12.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_12.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_13.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_13.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_14.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_14.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_15.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_15.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_16.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_16.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_17.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_17.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_18.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_18.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_19.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_19.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_20.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_20.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_21.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_21.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_22.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_22.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_23.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_23.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_24.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_24.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_25.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_25.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_26.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_26.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_27.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_27.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_1.png" width="60px" />        | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_1.png</code>        |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_2.png" width="60px" />        | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_2.png</code>        |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_3.png" width="60px" />        | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_3.png</code>        |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_4.png" width="60px" />        | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_4.png</code>        |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_5.png" width="60px" />        | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3d_5.png</code>        |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_1.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_1.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_2.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_2.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_3.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_3.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_4.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_4.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_5.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_5.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_6.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_6.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_7.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_7.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_8.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_8.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_9.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_9.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_10.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/bluey_10.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_1.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_1.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_2.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_2.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_3.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_3.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_4.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_4.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_5.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_5.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_6.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_6.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_7.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_7.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_8.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_8.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_9.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_9.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_10.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_10.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_11.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_11.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_12.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_12.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_13.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_13.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_14.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_14.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_15.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_15.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_16.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_16.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_17.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_17.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_18.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_18.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_19.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_19.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_20.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_20.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_21.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_21.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_22.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_22.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_23.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_23.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_24.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_24.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_25.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_25.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_26.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_26.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_27.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_27.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_28.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_28.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_29.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_29.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_30.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_30.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_31.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_31.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_32.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_32.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_33.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_33.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_34.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_34.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_35.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/memo_35.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_1.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_1.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_2.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_2.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_3.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_3.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_4.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_4.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_5.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_5.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_6.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_6.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_7.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_7.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_8.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_8.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_9.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_9.png</code>    |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_10.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_10.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_11.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_11.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_12.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_12.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_13.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_13.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_14.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_14.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_15.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/notion_15.png</code>   |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_1.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_1.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_2.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_2.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_3.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_3.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_4.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_4.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_5.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_5.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_6.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_6.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_7.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_7.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_8.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_8.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_9.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/teams_9.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_1.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_1.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_2.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_2.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_3.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_3.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_4.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_4.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_5.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_5.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_6.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_6.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_7.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_7.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_8.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_8.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_9.png" width="60px" />      | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_9.png</code>      |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_10.png" width="60px" />     | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/toon_10.png</code>     |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_1.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_1.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_2.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_2.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_3.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_3.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_4.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_4.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_5.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_5.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_6.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_6.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_7.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_7.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_8.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_8.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_9.png" width="60px" />  | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_9.png</code>  |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_10.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_10.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_11.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_11.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_12.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_12.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_13.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_13.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_14.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_14.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_15.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_15.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_16.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_16.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_17.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_17.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_18.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_18.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_19.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_19.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_20.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_20.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_21.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_21.png</code> |
+ | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_22.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_22.png</code> |
+
 # ✨ Memojis 
 Memojis are small set of images that can be added as placeholders for profile pictures on your projects.
 
 
- | Image                                                            | Link                                                   |
-| ---------------------------------------------------------------- | ------------------------------------------------------ |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/1627.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/1627.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/1949.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/1949.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/2529.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/2529.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/2738.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/2738.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/2821.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/2821.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3201.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3201.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3359.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3359.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3379.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3379.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/3552.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/3552.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/4122.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/4122.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/4314.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/4314.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/4937.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/4937.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/5186.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/5186.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/5228.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/5228.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/5372.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/5372.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/5506.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/5506.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/5696.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/5696.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/6287.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/6287.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/6367.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/6367.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/6474.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/6474.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/6643.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/6643.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/6775.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/6775.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/6437.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/6437.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/7016.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/7016.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/7263.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/7263.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/7474.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/7474.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/7644.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/7644.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/7684.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/7684.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/7924.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/7924.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/8145.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/8145.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/8603.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/8603.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/9519.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/9519.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/9575.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/9575.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/9811.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/9811.png</code> |
-| <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/9933.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/9933.png</code> |
 
 
 Feel free to reach out to me [on Twitter](https://twitter.com/alemalohe) if you have any questions or feedback! 
