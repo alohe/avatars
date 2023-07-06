@@ -154,3 +154,9 @@ a {
   right: 10px;
   z-index: 999;
 }
+
+.github-button {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+}
