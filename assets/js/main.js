@@ -1,109 +1,137 @@
 let images = [
-  {
-    img: "1627.png",
-  },
-  {
-    img: "1949.png",
-  },
-  {
-    img: "2529.png",
-  },
-  {
-    img: "2738.png",
-  },
-  {
-    img: "2821.png",
-  },
-  {
-    img: "3201.png",
-  },
-  {
-    img: "3359.png",
-  },
-  {
-    img: "3379.png",
-  },
-  {
-    img: "3552.png",
-  },
-  {
-    img: "4122.png",
-  },
-  {
-    img: "4314.png",
-  },
-  {
-    img: "4937.png",
-  },
-  {
-    img: "5186.png",
-  },
-  {
-    img: "5228.png",
-  },
-  {
-    img: "5372.png",
-  },
-  {
-    img: "5506.png",
-  },
-  {
-    img: "5696.png",
-  },
-  {
-    img: "6287.png",
-  },
-  {
-    img: "6367.png",
-  },
-  {
-    img: "6474.png",
-  },
-  {
-    img: "6643.png",
-  },
-  {
-    img: "6775.png",
-  },
-  {
-    img: "6437.png",
-  },
-  {
-    img: "7016.png",
-  },
-  {
-    img: "7263.png",
-  },
-  {
-    img: "7474.png",
-  },
-  {
-    img: "7644.png",
-  },
-  {
-    img: "7684.png",
-  },
-  {
-    img: "7924.png",
-  },
-  {
-    img: "8145.png",
-  },
-  {
-    img: "8603.png",
-  },
-  {
-    img: "9519.png",
-  },
-  {
-    img: "9575.png",
-  },
-  {
-    img: "9811.png",
-  },
-  {
-    img: "9933.png",
-  },
+  "3d_1.png",
+  "3d_2.png",
+  "3d_3.png",
+  "3d_4.png",
+  "3d_5.png",
+  "bluey_1.png",
+  "bluey_2.png",
+  "bluey_3.png",
+  "bluey_4.png",
+  "bluey_5.png",
+  "bluey_6.png",
+  "bluey_7.png",
+  "bluey_8.png",
+  "bluey_9.png",
+  "bluey_10.png",
+  "memo_1.png",
+  "memo_2.png",
+  "memo_3.png",
+  "memo_4.png",
+  "memo_5.png",
+  "memo_6.png",
+  "memo_7.png",
+  "memo_8.png",
+  "memo_9.png",
+  "memo_10.png",
+  "memo_11.png",
+  "memo_12.png",
+  "memo_13.png",
+  "memo_14.png",
+  "memo_15.png",
+  "memo_16.png",
+  "memo_17.png",
+  "memo_18.png",
+  "memo_19.png",
+  "memo_20.png",
+  "memo_21.png",
+  "memo_22.png",
+  "memo_23.png",
+  "memo_24.png",
+  "memo_25.png",
+  "memo_26.png",
+  "memo_27.png",
+  "memo_28.png",
+  "memo_29.png",
+  "memo_30.png",
+  "memo_31.png",
+  "memo_32.png",
+  "memo_33.png",
+  "memo_34.png",
+  "memo_35.png",
+  "notion_1.png",
+  "notion_2.png",
+  "notion_3.png",
+  "notion_4.png",
+  "notion_5.png",
+  "notion_6.png",
+  "notion_7.png",
+  "notion_8.png",
+  "notion_9.png",
+  "notion_10.png",
+  "notion_11.png",
+  "notion_12.png",
+  "notion_13.png",
+  "notion_14.png",
+  "notion_15.png",
+  "teams_1.png",
+  "teams_2.png",
+  "teams_3.png",
+  "teams_4.png",
+  "teams_5.png",
+  "teams_6.png",
+  "teams_7.png",
+  "teams_8.png",
+  "teams_9.png",
+  "toon_1.png",
+  "toon_2.png",
+  "toon_3.png",
+  "toon_4.png",
+  "toon_5.png",
+  "toon_6.png",
+  "toon_7.png",
+  "toon_8.png",
+  "toon_9.png",
+  "toon_10.png",
+  "upstream_1.png",
+  "upstream_2.png",
+  "upstream_3.png",
+  "upstream_4.png",
+  "upstream_5.png",
+  "upstream_6.png",
+  "upstream_7.png",
+  "upstream_8.png",
+  "upstream_9.png",
+  "upstream_10.png",
+  "upstream_11.png",
+  "upstream_12.png",
+  "upstream_13.png",
+  "upstream_14.png",
+  "upstream_15.png",
+  "upstream_16.png",
+  "upstream_17.png",
+  "upstream_18.png",
+  "upstream_19.png",
+  "upstream_20.png",
+  "upstream_21.png",
+  "upstream_22.png",
+  "vibrent_1.png",
+  "vibrent_2.png",
+  "vibrent_3.png",
+  "vibrent_4.png",
+  "vibrent_5.png",
+  "vibrent_6.png",
+  "vibrent_7.png",
+  "vibrent_8.png",
+  "vibrent_9.png",
+  "vibrent_10.png",
+  "vibrent_11.png",
+  "vibrent_12.png",
+  "vibrent_13.png",
+  "vibrent_14.png",
+  "vibrent_15.png",
+  "vibrent_16.png",
+  "vibrent_17.png",
+  "vibrent_18.png",
+  "vibrent_19.png",
+  "vibrent_20.png",
+  "vibrent_21.png",
+  "vibrent_22.png",
+  "vibrent_23.png",
+  "vibrent_24.png",
+  "vibrent_25.png",
+  "vibrent_26.png",
+  "vibrent_27.png",
 ];
 
 let colors = [
@@ -146,15 +174,16 @@ let colors = [
 
 function init() {
   let imgsContainer = document.querySelector(".images");
-  imgsContainer.innerHTML = images.map((image, i) => {
-    return `<div class='images__image' style="background-color: ${colors[i]}">
-          <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image.img}"  class="images__image__img" style="background-color: ${image.color}; border-radius: 50%" alt='memojis' />
+  imgsContainer.innerHTML = images
+    .map((image, i) => {
+      return `<div class='images__image' style="background-color: ${colors[i]}">
+          <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}"  class="images__image__img" style="background-color: ${image.color}; border-radius: 50%" alt='memojis' />
           <div class='image__control__buttons'>
             <div class='hor'>
-              <button class='image__control__button' onclick="copy('https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image.img}', this)">
+              <button class='image__control__button' onclick="copy('https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}', this)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
               </button>
-              <a href='assets/imgs/${image.img}' download>
+              <a href='assets/imgs/${image}' download>
                 <button class='image__control__button'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download-cloud"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
                 </button>
@@ -164,7 +193,8 @@ function init() {
           </div>
         </div>
       `;
-  }).join("");
+    })
+    .join("");
 }
 
 init();
