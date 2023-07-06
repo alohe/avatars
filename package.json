@@ -1,0 +1,21 @@
+{
+  "name": "avatars",
+  "version": "1.0.0",
+  "description": "Avatars is a comprehensive collection of diverse and eye-catching avatar images, designed to add personality and character to your projects. With a vast selection of illustrations, you can easily enhance your websites, applications, presentations, and more.",
+  "scripts": {
+    "build": "purgecss --css assets/css/style.min.css --content index.html assets/js/main.js --output assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alohe/avatars.git"
+  },
+  "author": "Alohe (@alemalohe on twitter)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alohe/avatars/issues"
+  },
+  "homepage": "https://github.com/alohe/avatars#readme",
+  "dependencies": {
+    "purgecss": "^5.0.0"
+  }
+}

@@ -1,1 +1,4 @@
-./assets/img/rename.py
+assets/img/rename.py
+node_modules
+assets/css/style.css
+package_lock.json

@@ -57,10 +57,10 @@ a {
 
 .images__image {
   transition: 0.3s;
-  padding: 10px;
   border-radius: 10px;
   position: relative;
   border-radius: 50%;
+  padding: 0;
 }
 
 .images__image:hover {
@@ -71,10 +71,12 @@ a {
   width: 100px;
   transition: 0.3s;
   border: solid 5px transparent;
+  padding: 0;
+  margin: 0;
 }
 
 .images__image:hover .images__image__img {
-  transform: scale(0.9) translateY(-80px);
+  transform: scale(0.9) translateY(-90px);
   background: white;
   border: solid 5px white;
 }
@@ -170,18 +172,19 @@ a {
 /* rand btn  */
 .randomize__btn {
   border: none;
-  border-radius: 10px;
-  height: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
   background-color: black;
   color: white;
 
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  z-index: 999;
 }
+
 /* made_by */
 .maker__tag {
   position: fixed;
