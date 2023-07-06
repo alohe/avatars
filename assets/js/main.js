@@ -190,7 +190,7 @@ function init() {
                 </button>
               </a>
             </div>
-            <input readonly onclick="copy('${colors[i]}', this); this.select()" type="text" class="image__control__input" value="${colors[i]}" />
+            <input readonly onclick="copy('${colors[color]}', this); this.select()" type="text" class="image__control__input" value="${colors[color]}" />
           </div>
         </div>
       `;
