@@ -1,3 +1,6 @@
+# ✨ Avatars 
+Avatars are small set of images that can be added as placeholders for profile pictures on your projects.
+
  | Image                                                                                    | Link                                                                       |
  | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_1.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/vibrent_1.png</code>   |
@@ -133,11 +136,6 @@
  | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_20.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_20.png</code> |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_21.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_21.png</code> |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_22.png" width="60px" /> | <code>https://cdn.jsdelivr.net/gh/alohe/memojis/png/upstream_22.png</code> |
-
-# ✨ Memojis 
-Memojis are small set of images that can be added as placeholders for profile pictures on your projects.
-
-
 
 
 Feel free to reach out to me [on Twitter](https://twitter.com/alemalohe) if you have any questions or feedback! 
