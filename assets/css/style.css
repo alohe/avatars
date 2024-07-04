@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 /* import local font from fonts file */
 @font-face {
   font-family: "Grifter Bold";
@@ -5,9 +11,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-family: "inter", sans-serif;
   color: #333;
   line-height: 1.5;
   margin: 0;
@@ -25,21 +29,39 @@ textarea:focus {
   outline: none;
 }
 
-svg {
-  width: 17px;
-}
-
-a {
-  color: #1c79f2;
-  text-decoration: none;
-  /* clip text to */
-}
-
 .header__text {
   font-family: "Grifter Bold";
-  font-size: 2rem;
-  color: rgb(0, 0, 0);
   letter-spacing: 1px;
+}
+
+.gazer {
+  position: relative;
+}
+
+.gazer__name {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.163);
+  z-index: 100;
+  display: none;
+  white-space: nowrap;
+}
+
+.gazer:hover .gazer__name {
+  display: block;
+}
+
+.gazer__img {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .images {
@@ -90,7 +112,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 5px;
   padding: 5px;
   opacity: 0;
   transition: 0.5s;
@@ -103,10 +125,10 @@ a {
 
 .image__control__input {
   width: 100%;
-  padding: 5px;
+  padding: 5px 10px;
   border: 1px solid #f5f5f5;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
   line-height: 1.5;
   margin: 0;
@@ -123,6 +145,10 @@ a {
   transform: translateY(0px);
 }
 
+.images__image:hover .image__control__buttons {
+  opacity: 1;
+}
+
 .image__control__buttons .image__control__button {
   border: 1px solid #f5f5f5;
   width: 30px;
@@ -131,6 +157,8 @@ a {
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+
+  @apply grid place-content-center;
 }
 
 .image__control__buttons .image__control__button:hover {
@@ -138,9 +166,7 @@ a {
   color: #0075fd;
 }
 
-.images__image:hover .image__control__buttons {
-  opacity: 1;
-}
+
 
 /* pop message */
 .copied__message {
@@ -326,4 +352,14 @@ a {
 .made__by__link {
   color: rgb(255, 255, 255);
   text-decoration: none;
+}
+
+
+.fig-button {
+  background-image: radial-gradient(circle at left, #f34e1e 0%, #fb735e 25%, #a259ff 55%, #19bcfc 65%, #09ce82 75%, #f34e1e 100%);
+}
+
+.feather {
+  width: 1em;
+  height: 1em;
 }

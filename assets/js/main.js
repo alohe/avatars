@@ -180,11 +180,11 @@ function init() {
       return `<div class='images__image' style="background-color: ${colors[color]}">
           <img src="https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}"  class="images__image__img" style="background-color: ${colors[color]}; border-radius: 50%" alt='memojis' />
           <div class='image__control__buttons'>
-            <div class='hor'>
-              <button class='image__control__button' onclick="copy('https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}', this)">
+            <div class="hor">
+              <button class="image__control__button" onclick="copy('https://cdn.jsdelivr.net/gh/alohe/memojis/png/${image}', this)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
               </button>
-              <a href='assets/imgs/${image}' download>
+              <a href="assets/imgs/${image}" download>
                 <button class='image__control__button'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download-cloud"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
                 </button>
@@ -226,3 +226,51 @@ const copy = (text, e) => {
     }, 2000);
   }
 };
+
+// flip though images list .flip-though which is an img tag
+let flipThough = document.querySelector(".flip-though");
+
+let i = 0;
+let interval = setInterval(() => {
+  flipThough.src = `https://cdn.jsdelivr.net/gh/alohe/memojis/png/${images[i]}`;
+  i++;
+  if (i === images.length) {
+    i = 0;
+  }
+}, 100);
+
+function randomize(arr) {
+  let shuffled = arr.sort(() => 0.5 - Math.random());
+  return shuffled;
+}
+
+// get github star and push count to #github-stars tag
+fetch("https://api.github.com/repos/alohe/avatars/stargazers")
+  .then((res) => res.json())
+  .then((data) => {
+    let gazersContainer = document.querySelector("#stargazers");
+
+    document.querySelectorAll(".github-stars").forEach((el) => {
+      el.innerHTML = data.length || 23;
+    });
+    
+
+    data = randomize(data);
+
+    data.forEach((gazer, i) => {
+      gazersContainer.innerHTML += `
+        <a 
+          href="${gazer.html_url}" 
+          class="gazer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="${gazer.avatar_url}" alt="gazer"
+            class="gazer__img"
+           />
+
+          <span class="gazer__name">${gazer.login}</span>
+        </a>
+      `;
+    });
+  });

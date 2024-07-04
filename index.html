@@ -41,12 +41,6 @@
       gtag("config", "G-HV4FS4JH8F");
     </script>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800,900"
     />
@@ -58,27 +52,146 @@
       referrerpolicy="no-referrer"
     />
     <link href="assets/css/style.min.css" rel="stylesheet" />
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
-  <body>
+  <body class="p-5">
     <!-- copy images links and use them as a placeholder for profile pictures -->
-    <div class="container">
-      <div class="col-lg-6 mx-auto text-center mb-5 mt-5">
-        <h1 class="text-center fw-bold mt-5 mb-2 header__text">Avatars</h1>
-        <p>
-          Avatars is a comprehensive collection of diverse and eye-catching
-          avatar images, designed to add personality and character to your
-          projects. With a vast selection of illustrations, you can easily
-          enhance your websites, applications, presentations, and more.
+    <div class="grid justify-center text-center">
+      <div class="max-w-xl mx-auto text-center mb-5 mt-20">
+        <h1
+          class="text-center fw-bold mb-4 header__text text-5xl bg-[#e1f2ff] text-[#0d99ff] w-fit flex mx-auto p-2 rounded-2xl"
+        >
+          <div class="flex items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_1.png"
+              alt="Avatars"
+              class="w-12 h-12 mr-2 rounded-xl flip-though"
+            />
+          </div>
+
+          Avatars
+        </h1>
+        <p class="text-black/50 text-md">
+          Avatars is a collection of diverse free avatar images from across the
+          web, designed to add personality to your projects. With a vast
+          selection of vibrant illustrations, you can enhance your projects in
+          seconds.
         </p>
+
+        <!-- figma plugin button -->
+        <div class="flex justify-center mt-2">
+          <a
+            href="https://www.figma.com/community/plugin/1259189280245319471/Avatars"
+            class="mt-3"
+            target="_blank"
+          >
+            <button
+              class="group relative py-4 px-6 text-white rounded-xl flex items-center bg-[#0d99ff] font-bold"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6 mr-2"
+              >
+                <path
+                  d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"
+                ></path>
+                <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
+                <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path>
+                <path
+                  d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"
+                ></path>
+                <path
+                  d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"
+                ></path>
+              </svg>
+              <span
+                class="group-hover:opacity-20 transition-all duration-300 ease-in-out"
+                >Figma Plugin</span
+              >
+
+              <span
+                class="bg-white text-[#0d99ff] pr-1 pl-1 text-sm rounded-xl ml-2 hidden sm:block"
+                >31.8k</span
+              >
+
+              <span
+                class="absolute inset-0 grid place-content-center opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out"
+              >
+                Install
+              </span>
+            </button>
+          </a>
+
+          <!-- Place this tag where you want the button to render. -->
+          <!-- github button  -->
+          <a
+            class="bg-black text-white pl-6 pr-5 py-2 rounded-xl ml-2 mt-3 flex items-center gap-2 font-bold"
+            href="https://github.com/alohe/avatars"
+            data-color-scheme="no-preference: light; light: light; dark: dark;"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star alohe/avatars on GitHub"
+          >
+            <i class="fab fa-github text-xl"></i> Star
+
+            <span
+              class="bg-white text-black pr-1 pl-1 text-sm rounded-xl github-stars"
+              >22</span
+            >
+          </a>
+        </div>
+
+        <!-- demo video -->
+        <div class="mt-10">
+          <video
+            class="w-full max-w-sm mx-auto rounded-xl shadow-xl border-2 border-[#e8e8e8]"
+            poster=""
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="/assets/demo.m4v" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
-      <div class="images"></div>
+
+      <!-- copy and paste cdn to project -->
+      <div class="">
+        <!-- header -->
+        <div class="max-w-md mx-auto mb-10">
+          <h1 class="text-sm font-semibold mt-10">Avatars</h1>
+        </div>
+        <div class="images"></div>
+
+        <!-- source -->
+        <div class="max-w-md mx-auto mt-10">
+          <p>
+            The images are sourced from the
+            <a
+              href="https://userpics.craftwork.design/?ref=546"
+              class="text-[#0d99ff] font-bold"
+              target="_blank"
+              >Craftwork.design</a
+            >
+            website. The images are free to use and can be downloaded from the
+            website.
+          </p>
+        </div>
+      </div>
+
       <div class="col-lg-12 text-center mb-3">
         <button
-          class="randomize__btn"
+          class="group fixed right-2 bottom-2 z-50 p-3 bg-white border rounded-full shadow-md"
           onclick="randColors()"
-          data-bs-toggle="tooltip"
-          data-bs-custom-class="custom-tooltip"
-          data-bs-title="Randomize colors"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -92,14 +205,92 @@
               clip-rule="evenodd"
             />
           </svg>
+
+          <span
+            class="group-hover:opacity-100 opacity-0 transition-all duration-300 ease-in-out absolute right-4 top-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-white rounded-xl p-1 text-sm font-semibold"
+            >Randomize</span
+          >
         </button>
       </div>
     </div>
 
     <div>
       <p class="text-center pb-5">
-        Brought to you by <a href="https://twitter.com/alemalohe">Alohe</a> 😉
+        The plugin was built by
+        <a href="https://twitter.com/alemalohe" class="font-bold text-[#0d99ff]"
+          >Alohe</a
+        >
       </p>
+    </div>
+
+    <!-- stargazers profiles -->
+    <div class="grid place-content-center text-center my-10 max-w-sm mx-auto">
+      <h1 class="text-sm font-semibold">Supporters</h1>
+      <div
+        class="flex flex-wrap gap-2 justify-center mt-5"
+        id="stargazers"
+      ></div>
+      <!-- star button -->
+      <a
+        class="bg-black text-white pl-6 pr-5 py-2 rounded-xl mt-5 flex items-center gap-2 font-bold text-xs w-fit mx-auto"
+        href="https://github.com/alohe/avatars"
+      >
+        <i class="fab fa-github text-xl"></i> Star
+
+        <span
+          class="bg-white text-black pr-1 pl-1 text-sm rounded-xl github-stars"
+          >22</span
+        >
+      </a>
+    </div>
+
+    <div class="grid text-center my-10 max-w-sm mx-auto">
+      <h1 class="text-sm font-semibold mb-5">Sponsors</h1>
+      <div class="text-center">
+        <!-- links socials and copywrite -->
+        <div class="flex justify-center gap-4">
+          <a
+            href="https://goodenoughlogos.com?ref=avatars"
+            class="text-[#000000] font-bold"
+            target="_blank"
+          >
+            <img
+              src="https://goodenoughlogos.com/favicon.ico"
+              alt="CopyUI"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://copyui.com?ref=avatars"
+            class="text-[#000000] font-bold"
+            target="_blank"
+          >
+            <img
+              src="https://copyui.com/favicon.ico"
+              alt="CopyUI"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://www.boostedlaunch.com?ref=avatars"
+            class="text-[#000000] font-bold"
+            target="_blank"
+          >
+            <img
+              src="https://boostedlaunch.com/favicon.ico"
+              alt="CopyUI"
+              class="w-10 h-10"
+          /></a>
+          <a
+            href="https://x.com/alemalohe"
+            class="text-[#000000] font-bold p-2 bg-black/5 rounded-xl w-10 h-10"
+            target="_blank"
+          >
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+        <!-- <p class="mt-5 text-black/50">&copy; Alohe. 2024</p> -->
+      </div>
     </div>
 
     <!-- JavaScript -->
@@ -117,7 +308,8 @@
         (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
       );
     </script>
-    <script src="https://cdn.jsdelivr.net/gh/alohe/maker-tag@1.0.2/dist/mwl.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/gh/alohe/maker-tag@1.0.2/dist/mwl.min.js"></script>
     <script>
       new MakerTag({
         text: `<svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path></svg> Figma plugin now available!`,
@@ -135,6 +327,6 @@
         },
         borderRadius: "13px",
       });
-    </script>
+    </script> -->
   </body>
 </html>
