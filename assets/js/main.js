@@ -244,33 +244,43 @@ function randomize(arr) {
   return shuffled;
 }
 
+async function fetchGithubStarCount() {
+  await fetch("https://api.github.com/repos/alohe/avatars")
+    .then((res) => res.json())
+    .then((data) => {
+      document.querySelectorAll(".github-stars").forEach((el) => {
+        el.innerHTML = data.stargazers_count || 39;
+      });
+    });
+}
+
 // get github star and push count to #github-stars tag
-fetch("https://api.github.com/repos/alohe/avatars/stargazers")
-  .then((res) => res.json())
-  .then((data) => {
-    let gazersContainer = document.querySelector("#stargazers");
+async function fetchGithubStars() {
+  await fetch("https://api.github.com/repos/alohe/avatars/stargazers")
+    .then((res) => res.json())
+    .then((data) => {
+      let gazersContainer = document.querySelector("#stargazers");
 
-    document.querySelectorAll(".github-stars").forEach((el) => {
-      el.innerHTML = data.length || 23;
+      data = randomize(data);
+
+      data.forEach((gazer, i) => {
+        gazersContainer.innerHTML += `
+          <a 
+            href="${gazer.html_url}" 
+            class="gazer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="${gazer.avatar_url}" alt="gazer"
+              class="gazer__img"
+             />
+
+            <span class="gazer__name">${gazer.login}</span>
+          </a>
+        `;
+      });
     });
-    
+}
 
-    data = randomize(data);
-
-    data.forEach((gazer, i) => {
-      gazersContainer.innerHTML += `
-        <a 
-          href="${gazer.html_url}" 
-          class="gazer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="${gazer.avatar_url}" alt="gazer"
-            class="gazer__img"
-           />
-
-          <span class="gazer__name">${gazer.login}</span>
-        </a>
-      `;
-    });
-  });
+fetchGithubStars();
+fetchGithubStarCount();

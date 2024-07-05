@@ -97,7 +97,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="w-6 h-6 mr-2"
+                class="w-6 h-6 mr-2 group-hover:opacity-0 transition-all duration-300 ease-in-out"
               >
                 <path
                   d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"
@@ -112,13 +112,13 @@
                 ></path>
               </svg>
               <span
-                class="group-hover:opacity-20 transition-all duration-300 ease-in-out"
+                class="group-hover:opacity-0 transition-all duration-300 ease-in-out"
                 >Figma Plugin</span
               >
 
               <span
-                class="bg-white text-[#0d99ff] pr-1 pl-1 text-sm rounded-xl ml-2 hidden sm:block"
-                >31.8k</span
+                class="bg-white text-[#0d99ff] pr-1 pl-1 text-sm rounded-xl ml-2 hidden sm:block group-hover:opacity-0 transition-all duration-300 ease-in-out"
+                >32k</span
               >
 
               <span
@@ -132,7 +132,7 @@
           <!-- Place this tag where you want the button to render. -->
           <!-- github button  -->
           <a
-            class="bg-black text-white pl-6 pr-5 py-2 rounded-xl ml-2 mt-3 flex items-center gap-2 font-bold"
+            class="bg-black text-white pl-6 pr-5 py-2 rounded-xl ml-2 mt-3 flex items-center gap-2 font-bold hover:opacity-80 transition-all duration-300 ease-in-out"
             href="https://github.com/alohe/avatars"
             target="_blank"
           >
@@ -140,8 +140,7 @@
 
             <span
               class="bg-white text-black pr-1 pl-1 text-sm rounded-xl github-stars"
-              >22</span
-            >
+            ></span>
           </a>
         </div>
 
@@ -214,7 +213,10 @@
     <div>
       <p class="text-center pb-5">
         The plugin was built by
-        <a href="https://twitter.com/alemalohe" target="_blank" class="font-bold text-[#0d99ff]"
+        <a
+          href="https://twitter.com/alemalohe"
+          target="_blank"
+          class="font-bold text-[#0d99ff]"
           >Alohe</a
         >
       </p>
@@ -229,16 +231,15 @@
       ></div>
       <!-- star button -->
       <a
-        class="bg-black text-white pl-6 pr-5 py-2 rounded-xl mt-5 flex items-center gap-2 font-bold text-xs w-fit mx-auto"
+        class="bg-black text-white pl-6 pr-5 py-2 rounded-xl mt-5 flex items-center gap-2 font-bold text-sm w-fit mx-auto"
         href="https://github.com/alohe/avatars"
         target="_blank"
       >
         <i class="fab fa-github text-xl"></i> Star
 
         <span
-          class="bg-white text-black pr-1 pl-1 text-sm rounded-xl github-stars"
-          >22</span
-        >
+          class="bg-white text-black pr-1 pl-1 text-xs rounded-xl github-stars"
+        ></span>
       </a>
     </div>
 
