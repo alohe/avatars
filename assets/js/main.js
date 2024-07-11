@@ -256,31 +256,48 @@ async function fetchGithubStarCount() {
 
 // get github star and push count to #github-stars tag
 async function fetchGithubStars() {
-  await fetch("https://api.github.com/repos/alohe/avatars/stargazers")
-    .then((res) => res.json())
-    .then((data) => {
-      let gazersContainer = document.querySelector("#stargazers");
+  const baseUrl = "https://api.github.com/repos/alohe/avatars/stargazers";
+  const perPage = 100;
+  let page = 1;
+  let stargazers = [];
+  let hasMorePages = true;
 
-      data = randomize(data);
+  while (hasMorePages) {
+    const response = await fetch(`${baseUrl}?per_page=${perPage}&page=${page}`);
+    const data = await response.json();
 
-      data.forEach((gazer, i) => {
-        gazersContainer.innerHTML += `
-          <a 
-            href="${gazer.html_url}" 
-            class="gazer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="${gazer.avatar_url}" alt="gazer"
-              class="gazer__img"
-             />
+    if (data.length > 0) {
+      stargazers = stargazers.concat(data);
+      page += 1;
+    } else {
+      hasMorePages = false;
+    }
+  }
 
-            <span class="gazer__name">${gazer.login}</span>
-          </a>
-        `;
-      });
-    });
+  let gazersContainer = document.querySelector("#stargazers");
+  stargazers = randomize(stargazers);
+
+  stargazers.forEach((gazer) => {
+    gazersContainer.innerHTML += `
+      <a 
+        href="${gazer.html_url}" 
+        class="gazer"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="${gazer.avatar_url}" alt="gazer"
+          class="gazer__img"
+         />
+        <span class="gazer__name">${gazer.login}</span>
+      </a>
+    `;
+  });
+}
+
+function randomize(array) {
+  return array.sort(() => Math.random() - 0.5);
 }
 
 fetchGithubStars();
+
 fetchGithubStarCount();
