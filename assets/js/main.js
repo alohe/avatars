@@ -249,7 +249,7 @@ async function fetchGithubStarCount() {
     .then((res) => res.json())
     .then((data) => {
       document.querySelectorAll(".github-stars").forEach((el) => {
-        el.innerHTML = data.stargazers_count || 39;
+        el.innerHTML = data.stargazers_count || 197;
       });
     });
 }

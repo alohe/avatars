@@ -58,8 +58,8 @@ textarea:focus {
 }
 
 .gazer__img {
-  width: 30px !important;
-  height: 30px !important;
+  width: 40px !important;
+  height: 40px !important;
   border-radius: 10px;
   object-fit: cover;
 }
