@@ -35,7 +35,8 @@
 7. Disable tap highlights on iOS
 */
 
-html {
+html,
+:host {
   line-height: 1.5;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -73,15 +74,34 @@ body {
 3. Ensure horizontal rules are visible by default.
 */
 
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
 
 /*
 Remove the default font size and weight for headings.
 */
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -99,6 +119,11 @@ a {
 Add the correct font weight in Edge and Safari.
 */
 
+b,
+strong {
+  font-weight: bolder;
+}
+
 /*
 1. Use the user's configured `mono` font-family by default.
 2. Use the user's configured `mono` font-feature-settings by default.
@@ -106,7 +131,10 @@ Add the correct font weight in Edge and Safari.
 4. Correct the odd `em` font sizing in all browsers.
 */
 
-code {
+code,
+kbd,
+samp,
+pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-feature-settings: normal;
@@ -129,11 +157,36 @@ small {
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
 
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
 /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 3. Remove gaps between table borders by default.
 */
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
 
 /*
 1. Change the font styles in all browsers.
@@ -143,7 +196,9 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 
 button,
 input,
-select {
+optgroup,
+select,
+textarea {
   font-family: inherit;
   /* 1 */
   font-feature-settings: inherit;
@@ -196,13 +251,25 @@ input:where([type='submit']) {
 Use the modern Firefox focus style for all focusable elements.
 */
 
+:-moz-focusring {
+  outline: auto;
+}
+
 /*
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
 /*
 Add the correct vertical alignment in Chrome and Firefox.
 */
+
+progress {
+  vertical-align: baseline;
+}
 
 /*
 Correct the cursor style of increment and decrement buttons in Safari.
@@ -217,6 +284,13 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
 
 /*
 Remove the inner padding in Chrome and Safari on macOS.
@@ -242,37 +316,77 @@ Remove the inner padding in Chrome and Safari on macOS.
 Add the correct display in Chrome and Safari.
 */
 
+summary {
+  display: list-item;
+}
+
 /*
 Removes the default spacing and border for appropriate elements.
 */
 
-
+blockquote,
+dl,
+dd,
 h1,
-p {
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
   margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*
 Reset default styling for dialogs.
 */
 
+dialog {
+  padding: 0;
+}
+
 /*
 Prevent resizing textareas horizontally by default.
 */
+
+textarea {
+  resize: vertical;
+}
 
 /*
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -283,13 +397,18 @@ input::placeholder {
 Set the default cursor for buttons.
 */
 
-button {
+button,
+[role="button"] {
   cursor: pointer;
 }
 
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
+
+:disabled {
+  cursor: default;
+}
 
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
@@ -299,7 +418,12 @@ Make sure disabled buttons don't get the pointer cursor.
 
 img,
 svg,
-video {
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
   display: block;
   /* 1 */
   vertical-align: middle;
@@ -446,6 +570,10 @@ video {
   inset: 0px;
 }
 
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
 .bottom-2 {
   bottom: 0.5rem;
 }
@@ -462,12 +590,8 @@ video {
   right: 1rem;
 }
 
-.top-1 {
-  top: 0.25rem;
-}
-
-.bottom-1 {
-  bottom: 0.25rem;
+.top-1\/2 {
+  top: 50%;
 }
 
 .z-50 {
@@ -593,12 +717,18 @@ video {
   max-width: 24rem;
 }
 
-.transform {
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-wrap {
@@ -649,14 +779,37 @@ video {
   border-width: 2px;
 }
 
-.border-black {
+.border-\[\#e8e8e8\] {
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-color: rgb(232 232 232 / var(--tw-border-opacity));
+}
+
+.border-black\/10 {
+  border-color: rgb(0 0 0 / 0.1);
+}
+
+.bg-\[\#0d99ff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 153 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#e1f2ff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 242 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#fafafa\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-black\/5 {
+  background-color: rgb(0 0 0 / 0.05);
 }
 
 .bg-white {
@@ -743,17 +896,31 @@ video {
   font-weight: 700;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
-.font-light {
-  font-weight: 300;
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#0d99ff\] {
+  --tw-text-opacity: 1;
+  color: rgb(13 153 255 / var(--tw-text-opacity));
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-black\/50 {
+  color: rgb(0 0 0 / 0.5);
 }
 
 .text-white {
@@ -812,7 +979,9 @@ button:focus {
 }
 
 input,
-select {
+optgroup,
+select,
+textarea:focus {
   outline: none;
 }
 
@@ -951,13 +1120,138 @@ select {
 
 /* pop message */
 
+.copied__message {
+  position: fixed;
+  top: 10px;
+  right: -200px;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 101;
+  /* position */
+  display: grid;
+  place-items: center;
+  /* style */
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #0075fd;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  box-shadow: 0 0 30px 0 rgba(24, 12, 134, 0.173);
+}
+
+.copied__message.show {
+  right: 20px;
+  opacity: 1;
+}
+
 /* rand btn  */
+
+.randomize__btn {
+  border: none;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  z-index: 999;
+}
 
 /* made_by */
 
+.maker__tag {
+  position: fixed;
+  z-index: 101;
+  font-size: 0.8em;
+  color: rgb(255, 255, 255);
+  /* linear gradient */
+  background: radial-gradient(
+    circle at left,
+    #0f42ce,
+    #0f42ce,
+    #0f42ce,
+    #0f42ce,
+    #1c79f2,
+    #1c79f2,
+    #f7a0f5,
+    #fdd8b7,
+    #f7a0f5,
+    #1c79f2,
+    #1c79f2,
+    #1c79f2,
+    #0f42ce,
+    #0f42ce
+  );
+  padding: 0.5rem 0.8rem;
+  font-weight: 700;
+  font-family: "Poppins";
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.163);
+  text-decoration: none;
+  animation: shine 5s infinite linear;
+  background-size: 200% auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
 /* maker__tag size // sm, md, lg */
 
+.maker__tag__size--sm {
+  font-size: 0.6em;
+  padding: 0.5rem 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.maker__tag__size--md {
+  font-size: 0.8em;
+  padding: 0.5rem 1rem;
+}
+
+.maker__tag__size--lg {
+  font-size: 1em;
+  padding: 0.5rem 1.2rem;
+}
+
 /* maker__tag position options - bottom-left, bottom-right, top-left, top-right, top-center, bottom-center */
+
+.maker__tag.maker__tag__position--bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.maker__tag.maker__tag__position--bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+.maker__tag.maker__tag__position--top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.maker__tag.maker__tag__position--top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.maker__tag.maker__tag__position--top-center {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.maker__tag.maker__tag__position--bottom-center {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 /* animate background with gradients */
 
@@ -1000,7 +1294,46 @@ select {
   color: rgb(255, 255, 255);
 } */
 
+.made__by__text {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.made__by__link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.fig-button {
+  background-image: radial-gradient(circle at left, #f34e1e 0%, #fb735e 25%, #a259ff 55%, #19bcfc 65%, #09ce82 75%, #f34e1e 100%);
+}
+
 .feather {
   width: 1em;
   height: 1em;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
+
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
