@@ -88,7 +88,7 @@ Avatars are small set of images that can be added as placeholders for profile pi
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_6.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_6.png</code>    |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_7.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_7.png</code>    |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_8.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_8.png</code>    |
- | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_9.png" width="60px" />    | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_9.png</code>    |
+ | <img src="https://raw.githubusercontent.com/alohe/avatars/main/png/notion_9.png" width="60px" />    | <code>https://raw.githubusercontent.com/alohe/avatars/main/png/notion_9.png</code>    |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_10.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_10.png</code>   |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_11.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_11.png</code>   |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_12.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/notion_12.png</code>   |
