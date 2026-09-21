@@ -32,6 +32,8 @@ textarea:focus {
 .header__text {
   font-family: "Grifter Bold";
   letter-spacing: 1px;
+  align-items: center;
+  line-height: 1;
 }
 
 .gazer {

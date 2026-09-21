@@ -570,16 +570,8 @@ video {
   inset: 0px;
 }
 
-.bottom-1 {
-  bottom: 0.25rem;
-}
-
 .bottom-2 {
   bottom: 0.5rem;
-}
-
-.left-1 {
-  left: 0.25rem;
 }
 
 .right-2 {
@@ -610,6 +602,10 @@ video {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-3 {
@@ -784,10 +780,6 @@ video {
   border-color: rgb(232 232 232 / var(--tw-border-opacity));
 }
 
-.border-black\/10 {
-  border-color: rgb(0 0 0 / 0.1);
-}
-
 .bg-\[\#0d99ff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(13 153 255 / var(--tw-bg-opacity));
@@ -796,11 +788,6 @@ video {
 .bg-\[\#e1f2ff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(225 242 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#fafafa\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -872,6 +859,11 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -896,12 +888,12 @@ video {
   font-weight: 700;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.leading-none {
+  line-height: 1;
 }
 
 .text-\[\#000000\] {
@@ -988,6 +980,8 @@ textarea:focus {
 .header__text {
   font-family: "Grifter Bold";
   letter-spacing: 1px;
+  align-items: center;
+  line-height: 1;
 }
 
 .gazer {
@@ -1329,6 +1323,10 @@ textarea:focus {
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
+  }
+
+  .sm\:inline {
+    display: inline;
   }
 }
 
