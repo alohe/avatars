@@ -244,60 +244,57 @@ function randomize(arr) {
   return shuffled;
 }
 
-async function fetchGithubStarCount() {
-  await fetch("https://api.github.com/repos/alohe/avatars")
-    .then((res) => res.json())
-    .then((data) => {
-      document.querySelectorAll(".github-stars").forEach((el) => {
-        el.innerHTML = data.stargazers_count || 197;
-      });
-    });
-}
-
-// get github star and push count to #github-stars tag
-async function fetchGithubStars() {
-  const baseUrl = "https://api.github.com/repos/alohe/avatars/stargazers";
-  const perPage = 100;
-  let page = 1;
-  let stargazers = [];
-  let hasMorePages = true;
-
-  while (hasMorePages) {
-    const response = await fetch(`${baseUrl}?per_page=${perPage}&page=${page}`);
-    const data = await response.json();
-
-    if (data.length > 0) {
-      stargazers = stargazers.concat(data);
-      page += 1;
-    } else {
-      hasMorePages = false;
-    }
-  }
-
-  let gazersContainer = document.querySelector("#stargazers");
-  stargazers = randomize(stargazers);
-
-  stargazers.forEach((gazer) => {
-    gazersContainer.innerHTML += `
-      <a 
-        href="${gazer.html_url}" 
-        class="gazer"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src="${gazer.avatar_url}" alt="gazer"
-          class="gazer__img"
-         />
-        <span class="gazer__name">${gazer.login}</span>
-      </a>
-    `;
+function renderStarCount(count) {
+  document.querySelectorAll(".github-stars").forEach((el) => {
+    el.innerHTML = count || 197;
   });
 }
 
-function randomize(array) {
-  return array.sort(() => Math.random() - 0.5);
+function renderStargazers(stargazers) {
+  const gazersContainer = document.querySelector("#stargazers");
+  if (!gazersContainer || !stargazers.length) return;
+
+  gazersContainer.innerHTML = "";
+  const fragment = document.createDocumentFragment();
+
+  randomize([...stargazers]).forEach((gazer) => {
+    const a = document.createElement("a");
+    a.href = gazer.html_url;
+    a.className = "gazer";
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.innerHTML = `
+        <img src="${gazer.avatar_url}" alt="${gazer.login}"
+          class="gazer__img"
+         />
+        <span class="gazer__name">${gazer.login}</span>
+    `;
+    fragment.appendChild(a);
+  });
+
+  gazersContainer.appendChild(fragment);
 }
 
-fetchGithubStars();
+async function loadGithubSupporters() {
+  try {
+    const res = await fetch("assets/stargazers.json");
+    if (!res.ok) return;
+    const snapshot = await res.json();
+    if (snapshot.data?.length) renderStargazers(snapshot.data);
+    if (snapshot.count) renderStarCount(snapshot.count);
+  } catch (_) {
+    // snapshot missing — star count fetch below still runs
+  }
 
-fetchGithubStarCount();
+  // public repo endpoint, no token. fails closed to the snapshot count.
+  try {
+    const repoRes = await fetch("https://api.github.com/repos/alohe/avatars");
+    if (!repoRes.ok) return;
+    const repo = await repoRes.json();
+    if (repo.stargazers_count) renderStarCount(repo.stargazers_count);
+  } catch (_) {
+    // keep snapshot count
+  }
+}
+
+loadGithubSupporters();
