@@ -1,7 +1,67 @@
-# ✨ Avatars 
+# ✨ Avatars
+
 Avatars are small set of images that can be added as placeholders for profile pictures on your projects.
 
- | Image                                                                                    | Link                                                                       |
+## 📦 NPM Package & CLI Setup
+
+Use avatar profile images directly in your project via NPM or CLI:
+
+### 1. Zero-Install CLI (Quick Start)
+Run interactive selector or download directly to your project's `./public/avatars` folder:
+
+```bash
+# Launch interactive CLI selector
+npx @geekykalpesh/avatars
+
+# Or download specific category to your web app
+npx @geekykalpesh/avatars download --category notion --out ./public/avatars
+
+# Or copy ALL 133 avatars to your project
+npx @geekykalpesh/avatars copy-all --out ./public/avatars
+
+# Get random avatar URL
+npx @geekykalpesh/avatars random
+```
+
+### 2. NPM Package Installation
+```bash
+npm install @geekykalpesh/avatars
+# or
+yarn add @geekykalpesh/avatars
+# or
+pnpm add @geekykalpesh/avatars
+```
+
+### 3. Programmatic Usage (JS / TS)
+
+```javascript
+import { 
+  getAvatarUrl, 
+  getRandomAvatarUrl, 
+  getAvatarPath, 
+  getAvatarBase64,
+  copyCategoryTo 
+} from '@geekykalpesh/avatars';
+
+// 🌐 1. Get CDN URL (Zero bundle overhead)
+const avatarUrl = getAvatarUrl('vibrent', 1);
+// -> "https://cdn.jsdelivr.net/gh/alohe/avatars@main/png/vibrent_1.png"
+
+// 🎲 2. Get Random Avatar CDN URL
+const randomNotionAvatar = getRandomAvatarUrl('notion');
+
+// 📂 3. Get local file path or Base64 Data URI
+const base64Avatar = getAvatarBase64('3d', 2); // "data:image/png;base64,..."
+const localPath = getAvatarPath('memo', 5);    // Absolute path inside node_modules
+
+// 📁 4. Programmatically copy avatars to project build folder
+copyCategoryTo('notion', './public/avatars');
+```
+
+---
+
+## 🎨 Avatar Collections Direct Links
+
  | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_1.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_1.png</code>   |
  | <img src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_2.png" width="60px" />   | <code>https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_2.png</code>   |
